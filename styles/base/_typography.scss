@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('../fonts/raleway-thin/raleway-thin-webfont.eot');
+    src: url('../fonts/raleway-thin/raleway-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-thin/raleway-thin-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-thin/raleway-thin-webfont.woff') format('woff'),
+         url('../fonts/raleway-thin/raleway-thin-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-thin/raleway-thin-webfont.svg#../fonts/raleway-thin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaythin_italic';
+    src: url('../fonts/raleway-thin-italic/raleway-thin-italic-webfont.eot');
+    src: url('../fonts/raleway-thin-italic/raleway-thin-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-thin-italic/raleway-thin-italic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-thin-italic/raleway-thin-italic-webfont.woff') format('woff'),
+         url('../fonts/raleway-thin-italic/raleway-thin-italic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-thin-italic/raleway-thin-italic-webfont.svg#../fonts/raleway-thin-italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latinmodernromanslanted-regular';
+    src: url('../fonts/latin-modern-roman-slanted-regular/latin-modern-roman-slanted-regular-webfont.eot');
+    src: url('../fonts/latin-modern-roman-slanted-regular/latin-modern-roman-slanted-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/latin-modern-roman-slanted-regular/latin-modern-roman-slanted-regular-webfont.woff') format('woff'),
+         url('../fonts/latin-modern-roman-slanted-regular/latin-modern-roman-slanted-regular-webfont.ttf') format('truetype'),
+         url('../fonts/latin-modern-roman-slanted-regular/latin-modern-roman-slanted-regular-webfont.svg#../fonts/latin-modern-roman-slanted-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latinmodernromanslanted-bold';
+    src: url('../fonts/latin-modern-roman-slanted-bold/latin-modern-roman-slanted-bold-webfont.eot');
+    src: url('../fonts/latin-modern-roman-slanted-bold/latin-modern-roman-slanted-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/latin-modern-roman-slanted-bold/latin-modern-roman-slanted-bold-webfont.woff') format('woff'),
+         url('../fonts/latin-modern-roman-slanted-bold/latin-modern-roman-slanted-bold-webfont.ttf') format('truetype'),
+         url('../fonts/latin-modern-roman-slanted-bold/latin-modern-roman-slanted-bold-webfont.svg#../fonts/latin-modern-roman-slanted-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-feature-settings: "kern", "liga", "pnum";
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  margin: 0 0 $small-spacing;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}
+
+img,
+picture {
+  margin: 0;
+  max-width: 100%;
+}

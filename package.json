@@ -1,23 +1,26 @@
 {
-  "name": "res",
+  "name": "",
   "version": "1.0.0",
-  "description": "res software website",
+  "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.9.0"
-  },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-compass": "^2.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-jshint": "^1.11.2",
-    "gulp-sass": "^2.0.4",
-    "gulp-scss-lint": "^0.3.6",
-    "uglify": "^0.1.5"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "David Davis",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "ddavis",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-cache": "^0.4.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-sass": "^2.1.0"
+  }
 }
