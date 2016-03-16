@@ -1,5 +1,6 @@
 /*
- *    $ npm install gulp gulp - sass gulp - imagemin gulp - cache browser - sync--save - dev
+ *    npm init (for package.json file)
+ *    $ npm install --save-dev gulp-sass gulp-imagemin gulp-cache browser-sync
  */
 
 var gulp = require('gulp'),
